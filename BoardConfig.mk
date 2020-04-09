@@ -172,6 +172,9 @@ TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# Power
+TARGET_POWER_SET_FEATURE_LIB := libpower_feature.davinci
+
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 
